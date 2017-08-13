@@ -48,7 +48,7 @@ Acceptance Criteria:
 - It should ignore any values wrapped with double quotes
 - It should interpret commas as part of the value if it is wrapped in double quotes
 - If should accept empty fields and output them as empty strings
-- No dependencies and 100% unit test code coverage in all ways: per-branch, per-statement, per-function or per-line.
+- No dependencies (not dev-ones) and 100% unit test code coverage in all ways: per-branch, per-statement, per-function and per-line.
 
 Outside of the scope:
 
@@ -62,7 +62,7 @@ Outside of the scope:
 ## API
 
 String-in, an array of arrays-out.
-Empty values are set as empty strings. 
+Empty values are set as empty strings.
 Numbers in CSV, like everything else, are turned into strings.
 
 For example,
